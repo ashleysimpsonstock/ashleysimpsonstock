@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 860" width="760">
+
+<defs>
+  <style>
+    .mono { font-family: 'Courier New', Courier, monospace; font-size: 13px; }
+  </style>
+
+  <clipPath id="c1"><rect x="24" y="48"  height="18" width="0"><animate attributeName="width" from="0" to="400" dur="0.45s" begin="0.3s"  fill="freeze"/></rect></clipPath>
+  <clipPath id="c2"><rect x="24" y="90"  height="18" width="0"><animate attributeName="width" from="0" to="400" dur="0.45s" begin="1.2s"  fill="freeze"/></rect></clipPath>
+  <clipPath id="c3"><rect x="24" y="192" height="18" width="0"><animate attributeName="width" from="0" to="400" dur="0.45s" begin="2.4s"  fill="freeze"/></rect></clipPath>
+  <clipPath id="c4"><rect x="24" y="294" height="18" width="0"><animate attributeName="width" from="0" to="400" dur="0.45s" begin="3.4s"  fill="freeze"/></rect></clipPath>
+  <clipPath id="c5"><rect x="24" y="376" height="18" width="0"><animate attributeName="width" from="0" to="400" dur="0.45s" begin="4.3s"  fill="freeze"/></rect></clipPath>
+  <clipPath id="c6"><rect x="24" y="498" height="18" width="0"><animate attributeName="width" from="0" to="400" dur="0.45s" begin="5.4s"  fill="freeze"/></rect></clipPath>
+  <clipPath id="c7"><rect x="24" y="580" height="18" width="0"><animate attributeName="width" from="0" to="400" dur="0.45s" begin="6.2s"  fill="freeze"/></rect></clipPath>
+  <clipPath id="c8"><rect x="24" y="642" height="18" width="0"><animate attributeName="width" from="0" to="400" dur="0.45s" begin="7.0s"  fill="freeze"/></rect></clipPath>
+  <clipPath id="c9"><rect x="24" y="784" height="18" width="0"><animate attributeName="width" from="0" to="400" dur="0.45s" begin="8.2s"  fill="freeze"/></rect></clipPath>
+</defs>
+
+<!-- WINDOW CHROME -->
+<rect width="760" height="860" rx="12" fill="#0d1117"/>
+<rect width="760" height="40" rx="12" fill="#161b22"/>
+<rect y="28" width="760" height="12" fill="#161b22"/>
+<line x1="0" y1="40" x2="760" y2="40" stroke="#30363d" stroke-width="1"/>
+<circle cx="24" cy="20" r="7" fill="#ff5f56"/>
+<circle cx="46" cy="20" r="7" fill="#ffbd2e"/>
+<circle cx="68" cy="20" r="7" fill="#27c93f"/>
+<text x="380" y="26" class="mono" fill="#6e7681" text-anchor="middle">ashley@server: ~</text>
+
+<!-- ── whoami ─────────────────────────── -->
+<text class="mono" clip-path="url(#c1)">
+  <tspan x="24" y="62" fill="#3fb950">ashley@server:~$</tspan><tspan fill="#e6edf3"> whoami</tspan>
+</text>
+<text x="24" y="82" class="mono" fill="#8b949e" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0.85s" fill="freeze"/>
+  Ashley Simpson Stock — Backend Developer | PHP · C# · Linux · Self-Hosting
+</text>
+
+<!-- ── cat languages.txt ─────────────── -->
+<text class="mono" clip-path="url(#c2)">
+  <tspan x="24" y="104" fill="#3fb950">ashley@server:~$</tspan><tspan fill="#e6edf3"> cat languages.txt</tspan>
+</text>
+<text x="24" y="124" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.75s" fill="freeze"/>
+  <tspan fill="#8b949e">PHP</tspan><tspan x="175" fill="#39d353">████████████████████</tspan><tspan fill="#8b949e">  Expert</tspan>
+</text>
+<text x="24" y="144" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.85s" fill="freeze"/>
+  <tspan fill="#8b949e">C#</tspan><tspan x="175" fill="#39d353">██████████████████</tspan><tspan fill="#1c2d1c">░░</tspan><tspan fill="#8b949e">  Advanced</tspan>
+</text>
+<text x="24" y="164" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.95s" fill="freeze"/>
+  <tspan fill="#8b949e">Python</tspan><tspan x="175" fill="#39d353">███████████████</tspan><tspan fill="#1c2d1c">░░░░░</tspan><tspan fill="#8b949e">  Proficient</tspan>
+</text>
+<text x="24" y="184" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.05s" fill="freeze"/>
+  <tspan fill="#8b949e">Bash</tspan><tspan x="175" fill="#39d353">██████████████████</tspan><tspan fill="#1c2d1c">░░</tspan><tspan fill="#8b949e">  Advanced</tspan>
+</text>
+
+<!-- ── cat frameworks.txt ────────────── -->
+<text class="mono" clip-path="url(#c3)">
+  <tspan x="24" y="206" fill="#3fb950">ashley@server:~$</tspan><tspan fill="#e6edf3"> cat frameworks.txt</tspan>
+</text>
+<text x="24" y="226" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.95s" fill="freeze"/>
+  <tspan fill="#8b949e">Laravel</tspan><tspan x="175" fill="#39d353">███████████████</tspan><tspan fill="#1c2d1c">░░░░░</tspan><tspan fill="#8b949e">  Proficient</tspan>
+</text>
+<text x="24" y="246" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.05s" fill="freeze"/>
+  <tspan fill="#8b949e">AdonisJS</tspan><tspan x="175" fill="#39d353">███████████████</tspan><tspan fill="#1c2d1c">░░░░░</tspan><tspan fill="#8b949e">  Proficient</tspan>
+</text>
+<text x="24" y="266" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.15s" fill="freeze"/>
+  <tspan fill="#8b949e">ASP.NET</tspan><tspan x="175" fill="#39d353">██████████████████</tspan><tspan fill="#1c2d1c">░░</tspan><tspan fill="#8b949e">  Advanced</tspan>
+</text>
+<text x="24" y="286" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.25s" fill="freeze"/>
+  <tspan fill="#8b949e">NodeJS</tspan><tspan x="175" fill="#39d353">███████████████</tspan><tspan fill="#1c2d1c">░░░░░</tspan><tspan fill="#8b949e">  Proficient</tspan>
+</text>
+
+<!-- ── cat databases.txt ─────────────── -->
+<text class="mono" clip-path="url(#c4)">
+  <tspan x="24" y="308" fill="#3fb950">ashley@server:~$</tspan><tspan fill="#e6edf3"> cat databases.txt</tspan>
+</text>
+<text x="24" y="328" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.95s" fill="freeze"/>
+  <tspan fill="#8b949e">MySQL/MariaDB</tspan><tspan x="175" fill="#39d353">███████████████</tspan><tspan fill="#1c2d1c">░░░░░</tspan><tspan fill="#8b949e">  Proficient</tspan>
+</text>
+<text x="24" y="348" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="4.05s" fill="freeze"/>
+  <tspan fill="#8b949e">MSSQL</tspan><tspan x="175" fill="#39d353">███████████████</tspan><tspan fill="#1c2d1c">░░░░░</tspan><tspan fill="#8b949e">  Proficient</tspan>
+</text>
+<text x="24" y="368" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="4.15s" fill="freeze"/>
+  <tspan fill="#8b949e">Redis</tspan><tspan x="175" fill="#39d353">████████████</tspan><tspan fill="#1c2d1c">░░░░░░░░</tspan><tspan fill="#8b949e">  Intermediate</tspan>
+</text>
+
+<!-- ── cat infra.txt ─────────────────── -->
+<text class="mono" clip-path="url(#c5)">
+  <tspan x="24" y="390" fill="#3fb950">ashley@server:~$</tspan><tspan fill="#e6edf3"> cat infra.txt</tspan>
+</text>
+<text x="24" y="410" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="4.85s" fill="freeze"/>
+  <tspan fill="#8b949e">Linux</tspan><tspan x="175" fill="#39d353">████████████████████</tspan><tspan fill="#8b949e">  Expert</tspan>
+</text>
+<text x="24" y="430" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="4.95s" fill="freeze"/>
+  <tspan fill="#8b949e">Docker</tspan><tspan x="175" fill="#39d353">███████████████</tspan><tspan fill="#1c2d1c">░░░░░</tspan><tspan fill="#8b949e">  Proficient</tspan>
+</text>
+<text x="24" y="450" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="5.05s" fill="freeze"/>
+  <tspan fill="#8b949e">Nginx</tspan><tspan x="175" fill="#39d353">███████████████</tspan><tspan fill="#1c2d1c">░░░░░</tspan><tspan fill="#8b949e">  Proficient</tspan>
+</text>
+<text x="24" y="470" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="5.15s" fill="freeze"/>
+  <tspan fill="#8b949e">Proxmox</tspan><tspan x="175" fill="#39d353">████████████</tspan><tspan fill="#1c2d1c">░░░░░░░░</tspan><tspan fill="#8b949e">  Intermediate</tspan>
+</text>
+<text x="24" y="490" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="5.25s" fill="freeze"/>
+  <tspan fill="#8b949e">Git</tspan><tspan x="175" fill="#39d353">██████████████████</tspan><tspan fill="#1c2d1c">░░</tspan><tspan fill="#8b949e">  Advanced</tspan>
+</text>
+
+<!-- ── cat cloud.txt ─────────────────── -->
+<text class="mono" clip-path="url(#c6)">
+  <tspan x="24" y="512" fill="#3fb950">ashley@server:~$</tspan><tspan fill="#e6edf3"> cat cloud.txt</tspan>
+</text>
+<text x="24" y="532" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="5.95s" fill="freeze"/>
+  <tspan fill="#8b949e">AWS</tspan><tspan x="175" fill="#39d353">████████████</tspan><tspan fill="#1c2d1c">░░░░░░░░</tspan><tspan fill="#8b949e">  Intermediate</tspan>
+</text>
+<text x="24" y="552" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="6.05s" fill="freeze"/>
+  <tspan fill="#8b949e">Azure</tspan><tspan x="175" fill="#39d353">████████████</tspan><tspan fill="#1c2d1c">░░░░░░░░</tspan><tspan fill="#8b949e">  Intermediate</tspan>
+</text>
+<text x="24" y="572" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="6.15s" fill="freeze"/>
+  <tspan fill="#8b949e">GCP</tspan><tspan x="175" fill="#39d353">██████████</tspan><tspan fill="#1c2d1c">░░░░░░░░░░</tspan><tspan fill="#8b949e">  Intermediate</tspan>
+</text>
+
+<!-- ── cat networking.txt ────────────── -->
+<text class="mono" clip-path="url(#c7)">
+  <tspan x="24" y="594" fill="#3fb950">ashley@server:~$</tspan><tspan fill="#e6edf3"> cat networking.txt</tspan>
+</text>
+<text x="24" y="614" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="6.75s" fill="freeze"/>
+  <tspan fill="#8b949e">WireGuard</tspan><tspan x="175" fill="#39d353">███████████████</tspan><tspan fill="#1c2d1c">░░░░░</tspan><tspan fill="#8b949e">  Proficient</tspan>
+</text>
+<text x="24" y="634" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="6.85s" fill="freeze"/>
+  <tspan fill="#8b949e">OpenVPN</tspan><tspan x="175" fill="#39d353">███████████████</tspan><tspan fill="#1c2d1c">░░░░░</tspan><tspan fill="#8b949e">  Proficient</tspan>
+</text>
+
+<!-- ── cat hardware.txt ──────────────── -->
+<text class="mono" clip-path="url(#c8)">
+  <tspan x="24" y="656" fill="#3fb950">ashley@server:~$</tspan><tspan fill="#e6edf3"> cat hardware.txt</tspan>
+</text>
+<text x="24" y="676" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="7.55s" fill="freeze"/>
+  <tspan fill="#8b949e">Arduino</tspan><tspan x="175" fill="#39d353">████████████</tspan><tspan fill="#1c2d1c">░░░░░░░░</tspan><tspan fill="#8b949e">  Intermediate</tspan>
+</text>
+<text x="24" y="696" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="7.60s" fill="freeze"/>
+  <tspan fill="#8b949e">ESP32</tspan><tspan x="175" fill="#39d353">████████████</tspan><tspan fill="#1c2d1c">░░░░░░░░</tspan><tspan fill="#8b949e">  Intermediate</tspan>
+</text>
+<text x="24" y="716" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="7.65s" fill="freeze"/>
+  <tspan fill="#8b949e">Raspberry Pi</tspan><tspan x="175" fill="#39d353">████████████</tspan><tspan fill="#1c2d1c">░░░░░░░░</tspan><tspan fill="#8b949e">  Intermediate</tspan>
+</text>
+<text x="24" y="736" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="7.75s" fill="freeze"/>
+  <tspan fill="#8b949e">MQTT</tspan><tspan x="175" fill="#39d353">██████████</tspan><tspan fill="#1c2d1c">░░░░░░░░░░</tspan><tspan fill="#8b949e">  Intermediate</tspan>
+</text>
+<text x="24" y="756" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="7.85s" fill="freeze"/>
+  <tspan fill="#8b949e">Android</tspan><tspan x="175" fill="#39d353">████████████</tspan><tspan fill="#1c2d1c">░░░░░░░░</tspan><tspan fill="#8b949e">  Intermediate</tspan>
+</text>
+<text x="24" y="776" class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="7.95s" fill="freeze"/>
+  <tspan fill="#8b949e">Home Assistant</tspan><tspan x="175" fill="#39d353">████████████</tspan><tspan fill="#1c2d1c">░░░░░░░░</tspan><tspan fill="#8b949e">  Intermediate</tspan>
+</text>
+
+<!-- ── uptime ─────────────────────────── -->
+<text class="mono" clip-path="url(#c9)">
+  <tspan x="24" y="798" fill="#3fb950">ashley@server:~$</tspan><tspan fill="#e6edf3"> uptime</tspan>
+</text>
+<text x="24" y="818" class="mono" fill="#8b949e" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="8.75s" fill="freeze"/>
+  up always — running on caffeine &amp; stubbornness
+</text>
+
+<!-- FINAL PROMPT + BLINKING CURSOR -->
+<text class="mono" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="9.0s" fill="freeze"/>
+  <tspan x="24" y="840" fill="#3fb950">ashley@server:~$</tspan>
+</text>
+<rect x="157" y="828" width="8" height="14" fill="#3fb950" opacity="0">
+  <animate attributeName="opacity" values="1;0" dur="1s" calcMode="discrete" begin="9.01s" repeatCount="indefinite"/>
+</rect>
+
+</svg>
